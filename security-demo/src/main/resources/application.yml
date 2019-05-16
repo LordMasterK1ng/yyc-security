@@ -6,6 +6,10 @@ spring:
     password: root
   session:
     store-type: none
-security:
-  basic:
-    enabled: false
+#security:
+#  basic:
+#    enabled: false
+yyc:
+  security:
+    browserProperties:
+      defaultReturnUrl: /auth
